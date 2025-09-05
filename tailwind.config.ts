@@ -18,7 +18,16 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'montserrat': ['Montserrat', 'sans-serif'],
+				'open-sans': ['Open Sans', 'sans-serif'],
+			},
 			colors: {
+				'lake-blue': '#077BE0',
+				'earth-brown': '#2D5016',
+				'grown': '#B4513B',
+				'beige-white': '#8B45DC',
+				'ice-white': '#F5F5DC',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
