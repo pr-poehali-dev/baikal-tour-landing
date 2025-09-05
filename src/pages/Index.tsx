@@ -18,12 +18,15 @@ const Index = () => {
               <span className="text-2xl font-montserrat font-bold text-slate-800">BAIKAL TOUR</span>
             </div>
             <div className="hidden md:flex items-center space-x-8">
-              <a href="#routes" className="text-slate-600 hover:text-lake-blue transition-colors">Маршруты</a>
+
               <a href="#tours" className="text-slate-600 hover:text-lake-blue transition-colors">Туры</a>
               <a href="#gallery" className="text-slate-600 hover:text-lake-blue transition-colors">Галерея</a>
               <a href="#reviews" className="text-slate-600 hover:text-lake-blue transition-colors">Отзывы</a>
               <a href="#contact" className="text-slate-600 hover:text-lake-blue transition-colors">Контакты</a>
               <Button className="bg-lake-blue hover:bg-lake-blue/90 text-white">Забронировать</Button>
+            </div>
+            <div className="md:hidden">
+              <Icon name="Menu" size={24} className="text-slate-600" />
             </div>
           </div>
         </div>
@@ -33,7 +36,7 @@ const Index = () => {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
-            src="/img/91b4b7df-7430-425c-b5ce-22c309cf19c7.jpg" 
+            src="/img/7930dd98-48ef-4d9c-8c13-50002312118c.jpg" 
             alt="Зимний Байкал" 
             className="w-full h-full object-cover"
           />
@@ -123,11 +126,11 @@ const Index = () => {
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow overflow-hidden">
               <div className="relative h-48">
                 <img 
-                  src="/img/d44be969-6e7f-43a6-900b-258272ce14d5.jpg" 
+                  src="/img/cfa97957-8532-4732-816b-27512dd4b416.jpg" 
                   alt="Ледяные пещеры" 
                   className="w-full h-full object-cover"
                 />
-                <Badge className="absolute top-4 left-4 bg-lake-blue">Популярный</Badge>
+                <Badge className="absolute top-4 left-4 bg-lake-blue text-white">Популярный</Badge>
               </div>
               <CardHeader>
                 <CardTitle className="font-montserrat text-xl">Тур в ледяные пещеры</CardTitle>
@@ -158,11 +161,11 @@ const Index = () => {
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow overflow-hidden">
               <div className="relative h-48">
                 <img 
-                  src="/img/9650932b-0490-42f8-bf4c-d4bd7c2758de.jpg" 
+                  src="/img/4e82a410-c64b-4560-80bd-75bc8e141759.jpg" 
                   alt="Групповой тур" 
                   className="w-full h-full object-cover"
                 />
-                <Badge className="absolute top-4 left-4 bg-green-600">Эко-тур</Badge>
+                <Badge className="absolute top-4 left-4 bg-green-600 text-white">Эко-тур</Badge>
               </div>
               <CardHeader>
                 <CardTitle className="font-montserrat text-xl">Зимнее сафари по льду</CardTitle>
@@ -193,11 +196,11 @@ const Index = () => {
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow overflow-hidden">
               <div className="relative h-48">
                 <img 
-                  src="/img/91b4b7df-7430-425c-b5ce-22c309cf19c7.jpg" 
+                  src="/img/7930dd98-48ef-4d9c-8c13-50002312118c.jpg" 
                   alt="VIP тур" 
                   className="w-full h-full object-cover"
                 />
-                <Badge className="absolute top-4 left-4 bg-yellow-600">VIP</Badge>
+                <Badge className="absolute top-4 left-4 bg-yellow-600 text-white">VIP</Badge>
               </div>
               <CardHeader>
                 <CardTitle className="font-montserrat text-xl">Эксклюзивный зимний тур</CardTitle>
